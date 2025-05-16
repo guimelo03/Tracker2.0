@@ -4,6 +4,7 @@
       <BarraLateral @aoAlterarModo="alterarModo"/>
     </div>
     <div class="column is-three-quarters conteudo">
+      <Notificacoes />
       <router-view></router-view>
     </div>
   </main>
@@ -12,11 +13,13 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import BarraLateral from "./components/BarraLateral.vue";
+import Notificacoes from "./components/Notificacoes.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     BarraLateral,
+    Notificacoes
   },
   data () {
     return {
@@ -40,7 +43,7 @@ main {
   --bg-primario: #fff;
   --texto-primario: #000;
   --borda-input: #ccc;
-  --bg-botao: #3273dc;       /* azul padrão Bulma */
+  --bg-botao: #3273dc;      
   --cor-botao: #fff;
   --bg-tabela: #fff;
   --cor-tabela: #000;
