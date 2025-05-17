@@ -1,0 +1,42 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Tracker"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do ambiente",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker 3.0"
+      }
+    },
+    {
+      "id": "6f94",
+      "descricao": "Teste"
+    },
+    {
+      "id": "e849",
+      "descricao": "Tarefa teste"
+    },
+    {
+      "id": "628c",
+      "duracaoEmSegundos": 3,
+      "descricao": ""
+    },
+    {
+      "id": "e8ed",
+      "duracaoEmSegundos": 1,
+      "descricao": "Teste"
+    },
+    {
+      "id": "0654",
+      "duracaoEmSegundos": 3,
+      "descricao": "Tarefa"
+    }
+  ]
+}
